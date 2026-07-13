@@ -1,5 +1,6 @@
 body {
     background-color: #f2f2f2;
+    font-family:  sans-serif;
 }
 nav {
     width: 80%;
@@ -23,11 +24,12 @@ nav {
     color: #000;
     padding: 0 15px;
 }
-.nav-btn {
-    background-color: #000;
-    color: #fff;
+.nav-button {
+    background-color: blue;
+    color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 10px 20px;
     cursor: pointer;
 }
 .hero {
@@ -52,4 +54,19 @@ nav {
 .overlay h1 {
     font-size: 70px;
     margin-bottom: 10px;
+}
+.overlay p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+.hero-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
 }
