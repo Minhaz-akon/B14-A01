@@ -24,7 +24,7 @@ nav {
     color: #000;
     padding: 0 15px;
 }
-.nav-button {
+.nav-btn {
     background-color: blue;
     color: white;
     border: none;
@@ -151,9 +151,133 @@ nav {
     justify-content: center;
     gap: 40px;
 }
+.sub-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
+}
+.suby-button {
+    background-color: rgb(19, 18, 17);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
+}
 footer {
     background-color: #230036;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+/* Hackathon Section Styling */
+.hackathon-section {
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+
+.hackathon-section h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.hackathon-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    gap: 40px;
+}
+
+.hackathon-info {
+    flex: 1.5;
+}
+
+.hackathon-info h3 {
+    font-size: 28px;
+    color: #230036;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.hackathon-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.hackathon-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.meta-item {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.hackathon-prizes {
+    flex: 1;
+    background-color: rgb(168, 168, 226);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+}
+
+.prize-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+
+.prize-row:last-of-type {
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+.prize-amount {
+    font-size: 18px;
+}
+
+.hackathon-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.hackathon-btn:hover {
+    background-color: #230036;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .hackathon-container {
+        flex-direction: column;
+    }
 }
